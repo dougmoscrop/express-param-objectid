@@ -1,0 +1,24 @@
+{
+  "name": "express-param-objectid",
+  "version": "1.0.0",
+  "description": "Ensure a param is a valid objectid",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec.js"
+  },
+  "repository": "https://github.com/dmoscrop/express-param-objectid.git",
+  "keywords": [
+    "mongo",
+    "express",
+    "validation"
+  ],
+  "author": "Doug Moscrop",
+  "license": "MIT",
+  "dependencies": {
+    "http-errors": "^1.2.7",
+    "valid-objectid": "0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
+}
